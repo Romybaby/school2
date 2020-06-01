@@ -7,7 +7,7 @@
     width:100%;
     display:block;
     position:fixed;
-    z-index:2;
+    z-index:3;
 }
 
 .navbar a {
@@ -25,8 +25,8 @@
 }
 
 .dropdown {
-    float: right;
-    overflow: hidden;
+  position: relative;
+  display: inline-block;
 }
 
 .icon {
@@ -41,7 +41,7 @@
     left:0px;
     border:none;
     position:fixed;
-    z-index:2;
+    z-index:3;
     text-align:center;
 }
 
@@ -67,7 +67,7 @@
     background-color: #454545;
     min-width: 160px;
     color:#ededed;
-    z-index: 3;
+    z-index: 4;
 }
 
 .dropdown-content a {
@@ -79,23 +79,22 @@
     background-color:#787878;
     display: block;
     text-align: center;
-    z-index: 2;
+    z-index: 3;
     /*min-height:130px;*/
 }
 
 .dropdown-content a:hover {
     background-color: #525252;
     display:block;
-    z-index: 2;
+    z-index: 3;
     color:#ededed;
     /*min-height:130px;*/
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-    z-index:2;
-    color:#ededed;
+  display: block;
 }
+
 .text {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 16px;
